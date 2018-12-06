@@ -1,5 +1,8 @@
 # MapD
-This Julia package is an interface to MapD and makes use of the `mapdql` and `StreamInsert` tools. It was developed to let people conveniently send DataFrames into MapD for visualization.
+This Julia package is an unofficial interface to MapD/OmniSci and makes use of the `mapdql` and `StreamImporter` tools. It was developed to let people conveniently send DataFrames into MapD for visualization.
+
+I have only bundled the Linux binaries so if you wish to use this wrapper on Windows or OSX, please use their native tools instead.
+You shouldn't be downloading binaries from untrusted git repos anyway.
 
 Currently the following data-types are supported:
 
